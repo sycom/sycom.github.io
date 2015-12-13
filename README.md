@@ -1,2 +1,2 @@
 # sycom.github.io
-[github page for sycom](sycom.github.io)
+[github page for sycom](http://sycom.github.io)
