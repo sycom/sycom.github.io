@@ -1,0 +1,54 @@
+.btn {
+  /*border-radius: 4px;*/
+  /*transition: all .3s;*/
+}
+
+.siteHeader {
+  border-bottom: 1px solid #ece;
+}
+
+.logo {
+  font-size: 22px;
+  margin-bottom: 0;
+}
+
+.nav { text-align: right; }
+
+.nav li {
+  display: inline;
+  line-height: 4;
+  margin-left: 25px;
+}
+.nav li:first-of-type {
+  margin-left: 0;
+}
+
+.masthead {
+  background-color: #ca9;
+  padding: 1.5em 0;
+}
+
+
+.masthead-title {
+  margin-top: 0;
+}
+
+.siteContent {
+  padding: 2em 0;
+}
+.contact {text-align: center}
+.siteFooter {
+  clear:both;
+  border-top: 1px solid #eee;
+  font-size: .85em;font-style:italic;
+  text-align:center;
+  padding-top: 15px;
+  margin:1em 0 .5em 0;
+}
+
+@media (min-width: 48em) {
+  .masthead {
+    padding: 2.5em 0;
+  }
+  .contact {text-align: right}
+}
