@@ -40,20 +40,20 @@ html {font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;}
 body {color:#666}
 a {color:#363}
   a:hover {black}
-  a:visited {#5c9}
+  a:visited {color:#5c9}
 
 .high nav .buttons li {border:#5c9 solid 1px}
    .high nav .buttons li a {color:#5c9}
-  .high nav .buttons li:hover {background:#5c9}
+  .high nav .buttons li:hover {background:#999}
   .high nav .buttons li:hover a {color:white}
 
 .header,.footer {background:#5c9;background-image: linear-gradient(125deg,white,#5c9,#5c9,#5c9);}
   .header a {color:;font-weight:bold;text-decoration:none}
 
-.c3 {box-shadow:0px 5px 7px #5c9}
+.c3 {box-shadow:0px 4px 9px #5c9}
 
 .fa-stack {color:#5c9}
-.fa-stack:hover {color:#363}
+.fa-stack:hover i {color:#bbb}
 
 
 /***********************/
