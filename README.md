@@ -1,5 +1,8 @@
 # sycom.github.io
-the code of the [github page for sycom](http://sycom.github.io) and some sub-projects...
+the code opensource projects for sycom on git***.io pages
+* on [github](http://sycom.github.io)
+* or [gitlab](http://sycom.gitlab.io) (issue tracker is there)
+* ...
 
 ## credits
 Hand coded with some libraries support :
