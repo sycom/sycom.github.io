@@ -1,5 +1,5 @@
-# sycom.git---.io ![build on gitlab](http://gitlab.com/sycom/sycom.gitlab.io/badges/master/build.svg)
-the [sycom's code opensource projects][gh-pages] on git***.io pages
+# sycom.git---.io
+easy access to [sycom's code opensource projects][gh-page] on git---.io pages
 ## credits
 Hand coded with some libraries support :
 * [normalize.css](http://necolas.github.io/normalize.css) *4.1.1*
@@ -7,9 +7,11 @@ Hand coded with some libraries support :
 * [Open Sans](https://www.google.com/fonts#ChoosePlace:select/Collection:Open+Sans) fonts
 * [jQuery](http://jquery.com/) *3.1.1*
 
-## Parcours
-* **[github][gh-pages]**
-  * [gitlab][gl-pages]
+## parcours
+* [github][github] > **[github page][gh-page]**
+  * [gitlab][gitlab] > **[gitlab page][gl-page]** ![build on gitlab](http://gitlab.com/sycom/sycom.gitlab.io/badges/master/build.svg)
 
-[gh-pages]:http://sycom.github.io
-[gl-pages]:http://sycom.gitlab.io
+[github]:http://github.com/sycom/sycom.github.io
+[gh-page]:http://sycom.github.io
+[gitlab]:http://gitlab.com/sycom/sycom.gitlab.io
+[gl-page]:http://sycom.gitlab.io
