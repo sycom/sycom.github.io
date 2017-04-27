@@ -3,13 +3,14 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>Sycom on git**b</title>
+	<title>Sycom on *****.io</title>
 	<meta name="HandheldFriendly" content="True">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Amiko:600" rel="stylesheet">
 	<link rel="stylesheet" href="./lib/normalize-min.css" media="all" type="text/css" />
 	<link rel="stylesheet" href="./lib/font-awesome-min.css" media="all" type="text/css" />
 	<link rel="stylesheet" href="./css/styles.css" media="all" type="text/css" />
+
 
     <script src="./lib/jquery-min.js"></script>
     <script src="./js/init-hr.js"></script>
@@ -17,7 +18,7 @@
 
 <body>
 	<div id="title" class="row high">
-		<h1>Sycom open source projects on <a href="https://github.com/sycom">github</a> and <a href="https://gitlab.com/sycom">gitlab</a></h1>
+		<h1>Sycom open source projects on <a href="https://framagit.org/sycom" target="_blank">framagit</a>, <a href="https://gitlab.com/sycom"  target="_blank">gitlab</a> and <a href="https://github.com/sycom" target="_blank">github</a></h1>
 		<nav id="navigation" role="navigation" class="nav">
 			<ul class="buttons">
 				<li class=""><a href="#projects">Projects</a></li>
@@ -27,9 +28,9 @@
 	</div>
 
 	<header id="header" role="banner" class="header">
-		<p>hello, this is the landing page for <a href="http://sylvain.comte.online.fr">Sylvain Comte</a> (sycom) opensource projects.</p>
-        <p>My main repositories are on the <a href="https://git.framasoft.org/u/sycom">framasoft</a> and <a href="https://gitlab.com/u/sycom">Gitlab</a> instance. Feel free to comment there, contribute or fork them.</p>
-	     <p>Some of my projects also have demo / info pages on git**b.io pages.</p>
+		<p>hello, this is the landing page for <a href="http://sylvain.comte.online.fr">Sylvain Comte</a> (@sycom) opensource projects.</p>
+        <p>My main repositories are on the <a href="https://framagit.org/sycom">framasoft</a> and <a href="https://gitlab.com/u/sycom">Gitlab</a> instances. Feel free to comment there, contribute or fork them.</p>
+	     <p>Some of my projects also have demo / info pages on *****.io pages.</p>
 	</header>
 
 	<div id="main" role="main">
@@ -44,21 +45,21 @@
 					</span>
 					<span class="fa-stack fa-lg">
 						<i class="fa fa-circle fa-stack-2x"></i>
-						<a class="fa fa-code-fork fa-stack-1x fa-inverse" href="https://git.framasoft.org/sycom/TiddlyWikiPlugins" title="source code"><span class="label">code</span></a>
+						<a class="fa fa-code-fork fa-stack-1x fa-inverse" href="https://framagit.org/sycom/TiddlyWikiPlugins" title="source code"><span class="label">code</span></a>
 					</span>
 				</p>
 			</div>
 			<div class="c3">
-				<h3><a href="https://github.com/know-rmandie">Know-rmandie</a></h3>
+				<h3><a href="https://gitlab.com/know-rmandie">Know-rmandie</a></h3>
             <p>Some projects to enhance land planning and knowledge in Normandy</p>
 				<p class="right dense">
 					<span class="fa-stack fa-lg">
 						<i class="fa fa-circle fa-stack-2x"></i>
-						<a class="fa fa-info fa-stack-1x fa-inverse" href="https://github.com/know-rmandie" title="learn more"><span class="label">learn more</span></a>
+						<a class="fa fa-info fa-stack-1x fa-inverse" href="https://gitlab/know-rmandie" title="learn more"><span class="label">learn more</span></a>
 					</span>
 					<span class="fa-stack fa-lg">
 						<i class="fa fa-circle fa-stack-2x"></i>
-						<a class="fa fa-eye fa-stack-1x fa-inverse" href="https://know-rmandie.github.io" title="see demo"><span class="label">demo</span></a>
+						<a class="fa fa-eye fa-stack-1x fa-inverse" href="https://know-rmandie.gitlab.io" title="see demo"><span class="label">demo</span></a>
 					</span>
 				</p>
 			</div>
@@ -151,17 +152,24 @@
 	</div>
 
 	<footer id="footer" role="contentinfo" class="footer">
-		<p>page powered with <a href="http://necolas.github.io/normalize.css/" target="_blank">normalize</a>, <a href="http://fontawesome.io" target="_blank">font-awesome</a>, <a href="http://jquery.com/" target="_blank">jquery</a> and some elbow oil</p>
+		<p>page powered with <a href="http://necolas.github.io/normalize.css/" target="_blank">normalize</a>, <a href="http://fontawesome.io" target="_blank">font-awesome</a>, <a href="http://jquery.com/" target="_blank">jquery</a> and some elbow oil.<br/>
+        This page also uses google analytics, which means <strong>cookies</strong> except if you enabled <i>do not track</i> in your browser.</p>
 	</footer>
 
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+var page = window.location.hostname;
+document.title = "sycom on " + page.split("sycom.")[1];
+if(navigator.doNotTrack != 1) {
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-109815-12', 'auto');
-  ga('send', 'pageview');
+      ga('set', 'page', page);
+      ga('set', 'title', document.title);
+      ga('create', 'UA-109815-12', page);
+      ga('send', 'pageview');
+}
 </script>
 
 </body>

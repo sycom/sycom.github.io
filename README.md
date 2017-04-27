@@ -2,9 +2,9 @@
 easy access to [sycom's code opensource projects][gh-page] on git---.io pages
 ## credits
 Hand coded with some libraries support :
-* [normalize.css](http://necolas.github.io/normalize.css) *4.1.1*
-* [font-awesome](http://fontawesome.io) *4.6.1*
-* [Open Sans](https://www.google.com/fonts#ChoosePlace:select/Collection:Open+Sans) fonts
+* [normalize.css](http://necolas.github.io/normalize.css) *5.0.0*
+* [font-awesome](http://fontawesome.io) *4.7.0*
+* [Amiko](https://www.google.com/fonts#ChoosePlace:select/Collection:Amiko) fonts
 * [jQuery](http://jquery.com/) *3.1.1*
 
 ## parcours
