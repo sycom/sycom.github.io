@@ -1,5 +1,5 @@
 # sycom.git---.io
-easy access to [sycom's code opensource projects][gh-page] on git---.io pages
+easy access to [sycom's code opensource projects][gh-page] on -----.io pages
 ## credits
 Hand coded with some libraries support :
 * [normalize.css](http://necolas.github.io/normalize.css) *5.0.0*
@@ -8,10 +8,14 @@ Hand coded with some libraries support :
 * [jQuery](http://jquery.com/) *3.1.1*
 
 ## parcours
-* [github][github] > **[github page][gh-page]**
-  * [gitlab][gitlab] > **[gitlab page][gl-page]** ![build on gitlab](http://gitlab.com/sycom/sycom.gitlab.io/badges/master/build.svg)
+* [framagit][origin] > **[frama.io page][frio-page]
+    * [gitlab][gitlab] > **[gitlab page][gl-page]** ![build on gitlab](http://gitlab.com/sycom/sycom.gitlab.io/badges/master/build.svg)
+        * [github][github] > **[github page][gh-page]**
 
-[github]:http://github.com/sycom/sycom.github.io
-[gh-page]:http://sycom.github.io
-[gitlab]:http://gitlab.com/sycom/sycom.gitlab.io
-[gl-page]:http://sycom.gitlab.io
+
+[origin]:https://framagit.org/sycom/sycom.frama.io
+[frio-page]:https://sycom.frama.io
+[gitlab]:https://gitlab.com/sycom/sycom.gitlab.io
+[gl-page]:https://sycom.gitlab.io
+[github]:https://github.com/sycom/sycom.github.io
+[gh-page]:https://sycom.github.io
