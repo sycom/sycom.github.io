@@ -8,7 +8,7 @@ Hand coded with some libraries support :
 * [jQuery](http://jquery.com/) *3.1.1*
 
 ## parcours
-* [framagit][origin] > **[frama.io page][frio-page]
+* [framagit][origin] > **[frama.io page][frio-page]**
     * [gitlab][gitlab] > **[gitlab page][gl-page]** ![build on gitlab](http://gitlab.com/sycom/sycom.gitlab.io/badges/master/build.svg)
         * [github][github] > **[github page][gh-page]**
 
